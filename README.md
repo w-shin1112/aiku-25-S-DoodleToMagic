@@ -24,13 +24,13 @@
 ## 예시 결과
 
 1) 낙서 → 포켓몬 형태의 2D 이미지
-![스크린샷 2025-08-28 오후 4.03.58.png](attachment:11a8198b-01ab-47e0-a7d8-70cd95154dde:스크린샷_2025-08-28_오후_4.03.58.png)
+<img width="800" height="560" alt="image" src="https://github.com/user-attachments/assets/9e418497-9ecf-4f38-ade7-5761fc0d3f6a" />
 
-![스크린샷 2025-08-28 오후 4.14.05.png](attachment:05b333f6-e388-4bdd-ad21-760f702ecc32:스크린샷_2025-08-28_오후_4.14.05.png)
+
 
 2) 포켓몬 2D 이미지 → 3D (오른쪽 면, 왼쪽 면)
 
-<img width="924" height="781" alt="image" src="https://github.com/user-attachments/assets/7c89a022-0a09-4a62-9839-d7d707c0c571" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/7c89a022-0a09-4a62-9839-d7d707c0c571" />
 
 
 ## 팀원
