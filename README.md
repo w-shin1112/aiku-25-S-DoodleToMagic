@@ -15,8 +15,12 @@
 3) End-to-End 파이프라인 구성
 
 ## 방법론
+**Pipeline**
+<img width="950" height="257" alt="스크린샷 2025-09-02 오후 11 20 14" src="https://github.com/user-attachments/assets/5464af49-da8e-4a5c-a339-680531e692c0" />\
 
-(문제를 정의하고 이를 해결한 방법을 가독성 있게 설명해주세요)
+**Prior Research**
+https://huggingface.co/lllyasviel/sd-controlnet-scribble
+https://github.com/VAST-AI-Research/TripoSR
 
 ## 환경 설정
 
@@ -42,4 +46,7 @@
 
 (프로젝트에 참여한 팀원의 이름과 깃헙 프로필 링크, 역할을 작성해주세요)
 
-- [홍길동](홍길동의 github link): (수행한 역할을 나열)
+- [신명경] 
+- [김윤서]
+- [김태관]
+- [백승현]
