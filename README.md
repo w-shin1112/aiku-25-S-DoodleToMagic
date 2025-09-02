@@ -35,7 +35,7 @@
 
 2) 포켓몬 2D 이미지 → 3D (오른쪽 면, 왼쪽 면)
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/7c89a022-0a09-4a62-9839-d7d707c0c571" />
+<img width="700" height="560" alt="image" src="https://github.com/user-attachments/assets/7c89a022-0a09-4a62-9839-d7d707c0c571" />
 
 
 ## 팀원
