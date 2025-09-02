@@ -16,11 +16,17 @@
 
 ## 방법론
 **Pipeline**
-<img width="950" height="257" alt="스크린샷 2025-09-02 오후 11 20 14" src="https://github.com/user-attachments/assets/5464af49-da8e-4a5c-a339-680531e692c0" />\
+<img width="950" height="257" alt="스크린샷 2025-09-02 오후 11 20 14" src="https://github.com/user-attachments/assets/5464af49-da8e-4a5c-a339-680531e692c0" />
+
+**Finetuning Dataset**
+| **데이터셋** | **설명** |
+| --- | --- |
+| [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
+| [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |
 
 **Prior Research**
-https://huggingface.co/lllyasviel/sd-controlnet-scribble
-https://github.com/VAST-AI-Research/TripoSR
+- control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
+- TripoSR: https://github.com/VAST-AI-Research/TripoSR
 
 ## 환경 설정
 
@@ -36,10 +42,9 @@ https://github.com/VAST-AI-Research/TripoSR
 <img width="800" height="560" alt="image" src="https://github.com/user-attachments/assets/9e418497-9ecf-4f38-ade7-5761fc0d3f6a" />
 
 
-
 2) 포켓몬 2D 이미지 → 3D (오른쪽 면, 왼쪽 면)
+<img width="715" height="430" alt="image" src="https://github.com/user-attachments/assets/ea51c4ea-09f3-4c01-bbad-7a2bd919dc36" />
 
-<img width="700" height="560" alt="image" src="https://github.com/user-attachments/assets/7c89a022-0a09-4a62-9839-d7d707c0c571" />
 
 
 ## 팀원
