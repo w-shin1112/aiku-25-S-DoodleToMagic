@@ -1,4 +1,4 @@
-# Doodle to Magic
+# ✏️Doodle to Magic
 
 📢 2025년 여름학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
 
@@ -18,11 +18,23 @@
 **Pipeline**
 <img width="950" height="257" alt="스크린샷 2025-09-02 오후 11 20 14" src="https://github.com/user-attachments/assets/5464af49-da8e-4a5c-a339-680531e692c0" />
 
+ 본 프로젝트는 Amateur Dataset과 Pokemon Dataset을 통해 finetuning한 control_v11p_sd15_scribble 모델을 통해 사용자가 직접 그린 Doodle을 Childlike Style 2D Image와 Pokemon Style 2D Image로 변환합니다. 이후, 3D Model인 TripoSR을 통해 Pokemon Style 2D Image를 입체적인 3D mesh로 변환합니다. 
+
+
+**Data pre-processing**
+
+<img width="868" height="356" alt="스크린샷 2025-09-03 오전 12 18 44" src="https://github.com/user-attachments/assets/bd5274cf-79e8-4d45-9e8d-1924db4f638b" />
+<img width="908" height="331" alt="스크린샷 2025-09-02 오후 10 11 10" src="https://github.com/user-attachments/assets/b6d238f0-8658-4f58-b87f-84ea1ac48351" />
+
+
+
 **Finetuning Dataset**
 | **데이터셋** | **설명** |
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
 | [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |
+
+
 
 **Prior Research**
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
@@ -30,6 +42,9 @@
 
 ## 환경 설정
 
+### Conda
+
+### Directory
 (Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
 
 ## 사용 방법
@@ -49,9 +64,7 @@
 
 ## 팀원
 
-(프로젝트에 참여한 팀원의 이름과 깃헙 프로필 링크, 역할을 작성해주세요)
-
-- [신명경] 
-- [김윤서]
-- [김태관]
-- [백승현]
+- [신명경] https://github.com/w-shin1112
+- [김윤서] https://github.com/hiyseo
+- [김태관] https://github.com/TTKKWAN
+- [백승현] https://github.com/snghyeon100
