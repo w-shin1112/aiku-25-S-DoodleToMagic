@@ -26,6 +26,9 @@
 <img width="868" height="356" alt="스크린샷 2025-09-03 오전 12 18 44" src="https://github.com/user-attachments/assets/bd5274cf-79e8-4d45-9e8d-1924db4f638b" />
 <img width="908" height="331" alt="스크린샷 2025-09-02 오후 10 11 10" src="https://github.com/user-attachments/assets/b6d238f0-8658-4f58-b87f-84ea1ac48351" />
 
+**Training(LoRA)**
+<img width="927" height="296" alt="스크린샷 2025-09-02 오후 11 22 02" src="https://github.com/user-attachments/assets/7aa8d218-e7ae-4c59-b588-9550e648355a" />
+
 
 
 **Finetuning Dataset**
