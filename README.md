@@ -51,8 +51,10 @@
 (Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
 
 ## 사용 방법
+inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행
+./run_test.sh 1 "cute tiger pokemon character"
 
-(프로젝트 실행 방법 (명령어 등)을 적어주세요.)
+혹은 배포된 gradio 사용
 
 ## 예시 결과
 
