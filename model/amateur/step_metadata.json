@@ -1,0 +1,9 @@
+{
+  "global_step": 100,
+  "epoch": 2,
+  "current_loss": 0.044316887855529785,
+  "avg_loss": 0.04830375588922338,
+  "learning_rate": 9.96239767299355e-05,
+  "timestamp": "2025-08-14 16:22:51",
+  "description": "Model weights at step 100 for inference testing"
+}

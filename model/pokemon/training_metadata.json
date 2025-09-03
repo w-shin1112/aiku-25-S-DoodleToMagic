@@ -1,0 +1,26 @@
+{
+  "epochs": 10,
+  "final_step": 530,
+  "final_loss": 0.05486718850055088,
+  "description": "Final trained Pokemon LoRA weights",
+  "timestamp": "2025-08-24 21:17:07",
+  "dataset_type": "pokemon",
+  "dataset_size": 833,
+  "training_config": {
+    "dataset_path": "/home/aikusrv04/Doodle/YS/datasets/pokemon_datasets",
+    "epochs": 10,
+    "batch_size": 2,
+    "learning_rate": 1e-05,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "to_q",
+      "to_v",
+      "to_k",
+      "to_out.0"
+    ],
+    "dataset_type": "pokemon",
+    "total_samples": 833,
+    "total_training_steps": 4170
+  }
+}
