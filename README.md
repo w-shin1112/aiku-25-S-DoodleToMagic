@@ -56,12 +56,34 @@
 
 ## 예시 결과
 
-1) 낙서 → 포켓몬 형태의 2D 이미지
-<img width="800" height="560" alt="image" src="https://github.com/user-attachments/assets/9e418497-9ecf-4f38-ade7-5761fc0d3f6a" />
+1) From Scribble to Amateur & Pokemon Style 2D Image
+base model : lllyasviel/control_v11p_sd15_scribble
+amateur prompt : a childlike crayon drawing, cute {input} character, no background
+pokemon prompt : pokemon style, cute {input} pokemon character, no background
+
+<img width="885" height="643" alt="image" src="https://github.com/user-attachments/assets/e25571dc-ccd4-407f-992c-50363f748622" />
+<img width="950" height="658" alt="image" src="https://github.com/user-attachments/assets/8f280f81-38f1-4931-8b7a-a343e608a263" />
+<img width="920" height="639" alt="image" src="https://github.com/user-attachments/assets/4255086b-c404-41a7-b0f4-912bae7cdcb5" />
+<img width="915" height="648" alt="image" src="https://github.com/user-attachments/assets/aee2bbff-55a2-4435-84bf-b3f2411c85f9" />
 
 
-2) 포켓몬 2D 이미지 → 3D (오른쪽 면, 왼쪽 면)
-<img width="715" height="430" alt="image" src="https://github.com/user-attachments/assets/ea51c4ea-09f3-4c01-bbad-7a2bd919dc36" />
+2) From Pokemon 2D image to 3D (left and right)
+<img width="895" height="549" alt="image" src="https://github.com/user-attachments/assets/2909d5f5-61e5-4efb-b6d2-162a2ae0a170" />
+
+## Contribution 
+1. Amatuer Style 2D Image task 에서 Baseline에 비해 원본 낙서 고유의 형태 유지
+2. Pokemon Style 2D Image task 에서 Baseline에 비해 Pokemon 고유의 특성 재현
+3. Pokemon 3D task 에서 얼굴 앞 뒤가 똑같아 보이지 않는 문제 해결 및 obj file을 viewr에 업로드 했을 때 색감이 흐릿한 문제 해결
+<img width="871" height="292" alt="image" src="https://github.com/user-attachments/assets/ac33e928-f411-405a-92ed-04f9eda4e727" />
+
+## Limitation 
+1. Amateur Dataset prompt 및 segment 오류
+2. Titan Gpu로 인한 제한적인 3D model
+3. Pip library 호환성 문제로 인한 end-to-end pipleline 불가
+4. 세심한 Texture 구현 불가
+5. 정량적 평가 지표의 부재
+
+
 
 
 
