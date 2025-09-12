@@ -56,17 +56,17 @@
 (Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
 
 ## 사용 방법
-inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행
-./run_test.sh 1 "cute tiger pokemon character"
+inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행  
+```./run_test.sh 1 "cute tiger pokemon character"```  
 
 혹은 배포된 gradio 사용
 
 ## 예시 결과
 
-1) From Scribble to Amateur & Pokemon Style 2D Image
-base model : lllyasviel/control_v11p_sd15_scribble
-amateur prompt : a childlike crayon drawing, cute {input} character, no background
-pokemon prompt : pokemon style, cute {input} pokemon character, no background
+1) From Scribble to Amateur & Pokemon Style 2D Image  
+base model : lllyasviel/control_v11p_sd15_scribble  
+```**amateur prompt** : a childlike crayon drawing, cute {input} character, no background```  
+```**pokemon prompt** : pokemon style, cute {input} pokemon character, no background```   
 
 <img width="885" height="643" alt="image" src="https://github.com/user-attachments/assets/e25571dc-ccd4-407f-992c-50363f748622" />
 <img width="950" height="658" alt="image" src="https://github.com/user-attachments/assets/8f280f81-38f1-4931-8b7a-a343e608a263" />
