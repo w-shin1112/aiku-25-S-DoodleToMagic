@@ -5,6 +5,9 @@
 **📌 프로젝트 링크**  
 [Doodle-to-Magic](https://doodle-to-magic.vercel.app)
 
+**🏀 Vercel 배포 링크**  
+[FE](https://github.com/hiyseo/doodle-to-magic)  
+
 **💫 모델**  
 [pokemon-scribble](https://huggingface.co/hiyseo/pokemon_scribble)
 
