@@ -53,10 +53,16 @@
 ## 환경 설정
 
 ### Conda Env ###
+* OS Env
+  * Linux
+
 * 2D inference
-  * scribble-lora: envs/scribble-lora.yml
+  * scribble-lora: envs/scribble-lora.yml  
+    ```conda env create -f envs/scribble-lora.yml -n scribble-lora```  
+  
 * 3D inference
   * Fin: envs/Fin.yml
+    ```conda env create -f envs/Fin.yml -n Fin```  
 
 ## local에서의 실행 방법
 inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 아래 script 실행  
