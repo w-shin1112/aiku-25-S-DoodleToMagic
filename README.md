@@ -44,7 +44,7 @@
   
   
 
-### Prior Research ###
+<br><br>### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
 - TripoSR: https://github.com/VAST-AI-Research/TripoSR  
 
@@ -61,7 +61,7 @@
 ## local에서의 실행 방법
 inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 아래 script 실행  
 ```./run_test.sh {input number} "cute {object name} pokemon character```    
-**example - input_1.png**  
+<br>**example - input_1.png**  
 ```./run_test.sh 1 "cute tiger pokemon character"```  
 
 ## 예시 결과
