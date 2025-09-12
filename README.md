@@ -44,7 +44,7 @@
   
   
 
-<br><br>### Prior Research ###
+<br>### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
 - TripoSR: https://github.com/VAST-AI-Research/TripoSR  
 
