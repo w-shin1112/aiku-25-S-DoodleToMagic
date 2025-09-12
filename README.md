@@ -40,7 +40,7 @@
 | **데이터셋** | **설명** |
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
-| [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |
+| [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |  
   
   
 
@@ -54,14 +54,14 @@
 
 ### Conda Env ###
 * 2D inference
-  * scribble-lora:
+  * scribble-lora: envs/scribble-lora.yml
 * 3D inference
-  * Fin: 
+  * Fin: envs/Fin.yml
 
 ## local에서의 실행 방법
 inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 아래 script 실행  
-```./run_test.sh {input number} "cute {object name} pokemon character```  
-**example - input_1.png**
+```./run_test.sh {input number} "cute {object name} pokemon character```    
+**example - input_1.png**  
 ```./run_test.sh 1 "cute tiger pokemon character"```  
 
 ## 예시 결과
