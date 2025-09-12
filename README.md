@@ -41,8 +41,8 @@
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
 | [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |
-
-
+  
+  
 
 ### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
@@ -54,15 +54,15 @@
 
 ### Conda Env ###
 * 2D inference
-  * scribble-lora: 
+  * scribble-lora:
 * 3D inference
   * Fin: 
 
-## 사용 방법
-inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행  
+## local에서의 실행 방법
+inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 아래 script 실행  
+```./run_test.sh {input number} "cute {object name} pokemon character```  
+**example - input_1.png**
 ```./run_test.sh 1 "cute tiger pokemon character"```  
-
-혹은 배포된 gradio 사용
 
 ## 예시 결과
 **Prompt**  
