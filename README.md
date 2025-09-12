@@ -36,7 +36,7 @@
 
 
 
-**Finetuning Dataset**
+### Finetuning Dataset ###
 | **데이터셋** | **설명** |
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
@@ -44,16 +44,17 @@
 
 
 
-**Prior Research**
+### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
 - TripoSR: https://github.com/VAST-AI-Research/TripoSR
 
 ## 환경 설정
 
-### Conda
-
-### Directory
-(Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
+### Conda Env ###
+* 2D inference
+  * scribble-lora: 
+* 3D inference
+  * Fin: 
 
 ## 사용 방법
 inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행  
@@ -62,11 +63,9 @@ inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래
 혹은 배포된 gradio 사용
 
 ## 예시 결과
-
-1) From Scribble to Amateur & Pokemon Style 2D Image  
-base model : lllyasviel/control_v11p_sd15_scribble  
-```**amateur prompt** : a childlike crayon drawing, cute {input} character, no background```  
-```**pokemon prompt** : pokemon style, cute {input} pokemon character, no background```   
+**Prompt**  
+```amateur prompt : a childlike crayon drawing, cute {input} character, no background```  
+```pokemon prompt : pokemon style, cute {input} pokemon character, no background```   
 
 <img width="885" height="643" alt="image" src="https://github.com/user-attachments/assets/e25571dc-ccd4-407f-992c-50363f748622" />
 <img width="950" height="658" alt="image" src="https://github.com/user-attachments/assets/8f280f81-38f1-4931-8b7a-a343e608a263" />
