@@ -61,7 +61,7 @@
     ```conda env create -f envs/scribble-lora.yml -n scribble-lora```  
   
 * 3D inference
-  * Fin: envs/Fin.yml
+  * Fin: envs/Fin.yml  
     ```conda env create -f envs/Fin.yml -n Fin```  
 
 ## local에서의 실행 방법
