@@ -41,10 +41,10 @@
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
 | [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |  
-  
+<br>  
   
 
-<br>### Prior Research ###
+### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
 - TripoSR: https://github.com/VAST-AI-Research/TripoSR  
 
