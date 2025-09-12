@@ -5,6 +5,8 @@
 **📌 프로젝트 링크**  
 [Doodle-to-Magic](https://doodle-to-magic.vercel.app)
 
+**📌 hugging face**  
+[pokemon-scribble](https://huggingface.co/hiyseo/pokemon_scribble)
 
 ## 소개
 
