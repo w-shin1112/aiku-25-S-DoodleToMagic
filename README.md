@@ -96,7 +96,7 @@ pokemon prompt : pokemon style, cute {input} pokemon character, no background
 
 ## 팀원
 
-- [신명경] https://github.com/w-shin1112
-- [김윤서] https://github.com/hiyseo
-- [김태관] https://github.com/TTKKWAN
-- [백승현] https://github.com/snghyeon100
+- [신명경](https://github.com/w-shin1112) : 실험 진행, 3D Modeling
+- [김윤서](https://github.com/hiyseo) : 2D Modeling, Pipeline 및 배포
+- [김태관](https://github.com/TTKKWAN) : 3D Modeling, Pipeline
+- [백승현](https://github.com/snghyeon100) : 3D Modeling, Research
