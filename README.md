@@ -1,5 +1,4 @@
 # ✏️Doodle to Magic
-
 📢 2025년 여름학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다 (🥉 동상 수상!!)  
 
 **📌 프로젝트 링크**  
@@ -10,6 +9,7 @@
 
 **💫 모델**  
 [pokemon-scribble](https://huggingface.co/hiyseo/pokemon_scribble)
+
 
 ## 소개
 
