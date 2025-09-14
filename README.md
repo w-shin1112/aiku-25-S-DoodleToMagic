@@ -1,8 +1,15 @@
 # ✏️Doodle to Magic
+📢 2025년 여름학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다 (🥉 동상 수상!!)  
 
-📢 2025년 여름학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다 (🥉 동상 수상!)  
-**프로젝트 링크**
+**📌 프로젝트 링크**  
 [Doodle-to-Magic](https://doodle-to-magic.vercel.app)
+
+**🏀 Vercel 배포 링크**  
+[hiyseo/doodle-to-magic](https://github.com/hiyseo/doodle-to-magic)  
+
+**💫 모델**  
+[pokemon-scribble](https://huggingface.co/hiyseo/pokemon_scribble)
+
 
 ## 소개
 
@@ -32,37 +39,44 @@
 
 
 
-**Finetuning Dataset**
+### Finetuning Dataset ###
 | **데이터셋** | **설명** |
 | --- | --- |
 | [AMATEUR dataset](https://huggingface.co/datasets/keshan/amateur_drawings-controlnet-dataset) | 낙서 그림, 그리고 이를 segmentation한 그림, caption이 pair로 있는 데이터셋 |
-| [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |
+| [Poketmon dataset](https://huggingface.co/datasets/reach-vb/pokemon-blip-captions) | poketmon 그림과 각 그림에 대한 caption이 달려있는 데이터 |  
+<br>  
+  
 
-
-
-**Prior Research**
+### Prior Research ###
 - control_v11p_sd15_scribble: https://huggingface.co/lllyasviel/sd-controlnet-scribble
-- TripoSR: https://github.com/VAST-AI-Research/TripoSR
+- TripoSR: https://github.com/VAST-AI-Research/TripoSR  
+
+
 
 ## 환경 설정
 
-### Conda
+### Conda Env ###
+* OS Env
+  * Linux
 
-### Directory
-(Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
+* 2D inference
+  * scribble-lora: envs/scribble-lora.yml  
+    ```conda env create -f envs/scribble-lora.yml -n scribble-lora```  
+  
+* 3D inference
+  * Fin: envs/Fin.yml  
+    ```conda env create -f envs/Fin.yml -n Fin```  
 
-## 사용 방법
-inputs 폴더 안에 input_1.png 형식으로 이미지 파일 준비 후 아래 script 실행
-./run_test.sh 1 "cute tiger pokemon character"
-
-혹은 배포된 gradio 사용
+## local에서의 실행 방법
+inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 아래 script 실행  
+```./run_test.sh {input number} "cute {object name} pokemon character```    
+<br>**example - input_1.png**  
+```./run_test.sh 1 "cute tiger pokemon character"```  
 
 ## 예시 결과
-
-1) From Scribble to Amateur & Pokemon Style 2D Image
-base model : lllyasviel/control_v11p_sd15_scribble
-amateur prompt : a childlike crayon drawing, cute {input} character, no background
-pokemon prompt : pokemon style, cute {input} pokemon character, no background
+**Prompt**  
+```amateur prompt : a childlike crayon drawing, cute {input} character, no background```  
+```pokemon prompt : pokemon style, cute {input} pokemon character, no background```   
 
 <img width="885" height="643" alt="image" src="https://github.com/user-attachments/assets/e25571dc-ccd4-407f-992c-50363f748622" />
 <img width="950" height="658" alt="image" src="https://github.com/user-attachments/assets/8f280f81-38f1-4931-8b7a-a343e608a263" />
@@ -92,7 +106,7 @@ pokemon prompt : pokemon style, cute {input} pokemon character, no background
 
 ## 팀원
 
-- [신명경] https://github.com/w-shin1112
-- [김윤서] https://github.com/hiyseo
-- [김태관] https://github.com/TTKKWAN
-- [백승현] https://github.com/snghyeon100
+- [신명경](https://github.com/w-shin1112) : 실험 진행, 3D Modeling
+- [김윤서](https://github.com/hiyseo) : 2D Modeling, Pipeline 및 배포
+- [김태관](https://github.com/TTKKWAN) : 3D Modeling, Pipeline
+- [백승현](https://github.com/snghyeon100) : 3D Modeling, Research
