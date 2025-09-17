@@ -106,7 +106,7 @@ inputs 폴더 안에 input_{num}.png 형식으로 이미지 파일 준비 후 �
 
 ## 팀원
 
-- [신명경](https://github.com/w-shin1112) : PM, 실험 진행
+- [신명경](https://github.com/w-shin1112) : 실험 진행, 3D Modeling
 - [김윤서](https://github.com/hiyseo) : 2D Modeling, Pipeline 및 배포
 - [김태관](https://github.com/TTKKWAN) : 3D Modeling, Pipeline
 - [백승현](https://github.com/snghyeon100) : 3D Modeling, Research
